@@ -1,18 +1,17 @@
 {
-  {
-    "name": "daves-tree-stand",
-    "version": "1.0.0", preorders + community board",
-    "description": "Dave's Christmas Tree Stand website (preorders + community board)",
-    "main": "server.js",
-    "type": "commonjs",
-    "scripts": {
-      "start": "node server.js"
-    },
-    "dependencies": {
-      "dotenv": "^16.4.5",
-      "express": "^4.19.2",
-      "express-rate-limit": "^7.4.0",
-      "helmet": "^7.1.0",
-      "sqlite3": "^5.1.7"
-    }
+  "name": "daves-tree-stand",
+  "version": "1.0.0",
+  "description": "Dave's Christmas Tree Stand website (preorders + community board)",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0",
+    "helmet": "^7.1.0",
+    "sqlite3": "^5.1.7"
   }
+}
